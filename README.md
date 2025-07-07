@@ -1,6 +1,6 @@
 <p align="center"><img src="https://raw.githubusercontent.com/Carlos-93/angular17-routing-services-forms/master/src/assets/images/angular17.png" width="40%"></p>
 
-# Welcome to my fightwear shop!
+# Welcome to my Fightwear Shop!
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.5.
 
