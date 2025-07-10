@@ -1,0 +1,101 @@
+<div class="min-h-screen grid place-content-center">
+    <!-- Header -->
+    <div class="text-center mb-12 text-black">
+        <h1 class="text-5xl md:text-6xl font-bold mb-4 drop-shadow-lg">
+            Nuestros Productos
+        </h1>
+        <p class="text-xl max-w-2xl mx-auto">
+            Descubre nuestra colección de ropa de combate premium
+        </p>
+    </div>
+
+    <!-- Products Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <!-- Camisetas Card -->
+        <div class="group bg-white rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-3 cursor-pointer"
+            (click)="navigateProduct('tshirts')">
+            <!-- Card Image -->
+            <div
+                class="relative h-64 bg-gradient-to-br from-red-400 to-red-500 flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
+                <span class="text-9xl">👕</span>
+                <!-- Overlay -->
+                <div
+                    class="absolute inset-0 bg-black/60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <span
+                        class="text-white font-semibold text-lg px-6 py-3 border-2 border-white rounded-full group-hover:bg-white group-hover:text-gray-800 transition-all duration-300">
+                        Ver Productos
+                    </span>
+                </div>
+            </div>
+            <!-- Card Content -->
+            <div class="p-6 relative">
+                <h3 class="text-2xl font-bold text-gray-800 mb-2">Camisetas</h3>
+                <p class="text-gray-600 leading-relaxed mb-4">
+                    Camisetas de entrenamiento y combate de alta calidad
+                </p>
+                <div
+                    class="absolute bottom-6 right-6 text-2xl font-bold text-indigo-500 group-hover:translate-x-1 transition-transform duration-300">
+                    →
+                </div>
+            </div>
+        </div>
+
+        <!-- Pantalones Card -->
+        <div class="group bg-white rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-3 cursor-pointer"
+            (click)="navigateProduct('pants')">
+            <!-- Card Image -->
+            <div
+                class="relative h-64 bg-gradient-to-br from-teal-400 to-teal-500 flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
+                <span class="text-9xl">👖</span>
+                <!-- Overlay -->
+                <div
+                    class="absolute inset-0 bg-black/60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <span
+                        class="text-white font-semibold text-lg px-6 py-3 border-2 border-white rounded-full group-hover:bg-white group-hover:text-gray-800 transition-all duration-300">
+                        Ver Productos
+                    </span>
+                </div>
+            </div>
+            <!-- Card Content -->
+            <div class="p-6 relative">
+                <h3 class="text-2xl font-bold text-gray-800 mb-2">Pantalones</h3>
+                <p class="text-gray-600 leading-relaxed mb-4">
+                    Pantalones resistentes para artes marciales y fitness
+                </p>
+                <div
+                    class="absolute bottom-6 right-6 text-2xl font-bold text-indigo-500 group-hover:translate-x-1 transition-transform duration-300">
+                    →
+                </div>
+            </div>
+        </div>
+
+        <!-- Sudaderas Card -->
+        <div class="group bg-white rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-3 cursor-pointer"
+            (click)="navigateProduct('sweatshirts')">
+            <!-- Card Image -->
+            <div
+                class="relative h-64 bg-gradient-to-br from-blue-400 to-blue-500 flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
+                <span class="text-9xl">🧥</span>
+                <!-- Overlay -->
+                <div
+                    class="absolute inset-0 bg-black/60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <span
+                        class="text-white font-semibold text-lg px-6 py-3 border-2 border-white rounded-full group-hover:bg-white group-hover:text-gray-800 transition-all duration-300">
+                        Ver Productos
+                    </span>
+                </div>
+            </div>
+            <!-- Card Content -->
+            <div class="p-6 relative">
+                <h3 class="text-2xl font-bold text-gray-800 mb-2">Sudaderas</h3>
+                <p class="text-gray-600 leading-relaxed mb-4">
+                    Sudaderas cómodas para entrenamientos y uso casual
+                </p>
+                <div
+                    class="absolute bottom-6 right-6 text-2xl font-bold text-indigo-500 group-hover:translate-x-1 transition-transform duration-300">
+                    →
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
